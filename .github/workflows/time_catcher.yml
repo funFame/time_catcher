@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '* */6 * * *'
+    - cron: '* */1 * * *'
 
 concurrency:
   group: time-catcher
